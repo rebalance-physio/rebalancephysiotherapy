@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rebalance Physiotherapy Clinic</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Font: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #333; /* Darker text for readability */
+        }
+        /* Custom colors for a softer palette */
+        .bg-rebalance-blue { background-color: #e0f2fe; } /* Light blue */
+        .text-rebalance-blue { color: #2563eb; } /* Medium blue */
+        .bg-rebalance-green { background-color: #d1fae5; } /* Light green */
+        .text-rebalance-green { color: #059669; } /* Medium green */
+        .border-rebalance-blue { border-color: #bfdbfe; }
+        .gradient-blue-green {
+            background-image: linear-gradient(to right, #60a5fa, #34d399); /* Blue to Green gradient */
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+
+    <!-- Header/Navbar -->
+    <header class="bg-white shadow-sm py-4">
+        <nav class="container mx-auto px-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-rebalance-blue rounded-md">Rebalance Physiotherapy</a>
+            <!-- Simple placeholder for navigation, can be expanded -->
+            <ul class="hidden md:flex space-x-6">
+                <li><a href="#services" class="text-gray-600 hover:text-rebalance-blue transition duration-300 rounded-md p-2">Services</a></li>
+                <li><a href="#why-us" class="text-gray-600 hover:text-rebalance-blue transition duration-300 rounded-md p-2">Why Us</a></li>
+                <li><a href="#contact" class="text-gray-600 hover:text-rebalance-blue transition duration-300 rounded-md p-2">Contact</a></li>
+            </ul>
+            <!-- Mobile Menu Button (Hamburger - non-functional for this draft) -->
+            <button class="md:hidden text-gray-600 hover:text-rebalance-blue focus:outline-none focus:ring-2 focus:ring-rebalance-blue rounded-md p-2">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="gradient-blue-green text-white py-20 md:py-32 text-center rounded-b-xl shadow-lg">
+        <div class="container mx-auto px-4">
+            <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-6 rounded-md">
+                Say Goodbye to Pain. Reclaim Movement with Rebalance Physiotherapy Clinic!
+            </h1>
+            <p class="text-lg md:text-xl mb-8 max-w-3xl mx-auto rounded-md">
+                Expert care for joint pain, stiffness, injuries & more — personalized for your recovery journey.
+            </p>
+            <a href="#contact" class="bg-white text-rebalance-blue hover:bg-gray-100 font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 transform hover:scale-105">
+                Book Your Initial Assessment
+            </a>
+        </div>
+    </section>
+
+    <!-- Quick Benefits Section -->
+    <section id="services" class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800 rounded-md">What Sets Us Apart</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Benefit 1 -->
+                <div class="bg-rebalance-blue p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300 text-center flex flex-col items-center">
+                    <div class="text-rebalance-blue mb-4">
+                        <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"></path></svg>
+                    </div>
+                    <p class="text-lg font-semibold text-gray-800 rounded-md">Personalized 1-on-1 Treatment Plans</p>
+                </div>
+                <!-- Benefit 2 -->
+                <div class="bg-rebalance-green p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300 text-center flex flex-col items-center">
+                    <div class="text-rebalance-green mb-4">
+                        <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 4a2 2 0 100 4m-3 13V16a2 2 0 01-2-2v-3a2 2 0 012-2h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 001.707-.707V10a2 2 0 012-2h3a2 2 0 012 2v6a2 2 0 01-2 2h-3a2 2 0 01-2-2v-3.586a1 1 0 00-.293-.707L12 10.414V17a2 2 0 002 2h3a2 2 0 002-2v-3a2 2 0 00-2-2h-3.586a1 1 0 00-.707.293L11 15.586V19a2 2 0 01-2 2H6a2 2 0 01-2-2v-3a2 2 0 012-2h3"></path></svg>
+                    </div>
+                    <p class="text-lg font-semibold text-gray-800 rounded-md">Advanced Hands-on & Rehab Techniques</p>
+                </div>
+                <!-- Benefit 3 -->
+                <div class="bg-rebalance-blue p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300 text-center flex flex-col items-center">
+                    <div class="text-rebalance-blue mb-4">
+                        <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253m9 0c1.168-.776 2.754-1.253 4.5-1.253 1.746 0 3.332.477 4.5 1.253m-9 0V19M3 19v-8.93a2 2 0 01.894-1.664L12 3l8.106 6.406a2 2 0 01.894 1.664V19M3 19h18"></path></svg>
+                    </div>
+                    <p class="text-lg font-semibold text-gray-800 rounded-md">Easy-to-Follow Home Exercises</p>
+                </div>
+                <!-- Benefit 4 -->
+                <div class="bg-rebalance-green p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300 text-center flex flex-col items-center">
+                    <div class="text-rebalance-green mb-4">
+                        <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"></path></svg>
+                    </div>
+                    <p class="text-lg font-semibold text-gray-800 rounded-md">WhatsApp Support After Sessions</p>
+                </div>
+                <!-- Benefit 5 -->
+                <div class="bg-rebalance-blue p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300 text-center flex flex-col items-center">
+                    <div class="text-rebalance-blue mb-4">
+                        <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.653.141-1.272.393-1.832M10 16s.5-1 2-1 2 1 2 1M12 6a3 3 0 110 6 3 3 0 010-6zm-7 10a2 2 0 01-2-2V8a2 2 0 012-2h2a2 2 0 012 2v6a2 2 0 01-2 2H5z"></path></svg>
+                    </div>
+                    <p class="text-lg font-semibold text-gray-800 rounded-md">Friendly, Certified Physiotherapy Experts</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Who We Help Section -->
+    <section class="py-16 md:py-24 bg-gray-100">
+        <div class="container mx-auto px-4 text-center max-w-3xl">
+            <h2 class="text-3xl md:text-4xl font-bold mb-8 text-gray-800 rounded-md">Who We Help</h2>
+            <p class="text-lg md:text-xl text-gray-700 leading-relaxed rounded-md">
+                Whether you're struggling with knee pain, neck tension, back stiffness, or recovering post-surgery — we help people move better, feel stronger, and live pain-free. Our personalized approach addresses your unique needs to get you back to doing what you love.
+            </p>
+        </div>
+    </section>
+
+    <!-- Urgency CTA Section -->
+    <section class="py-16 md:py-20 bg-yellow-500 text-white text-center shadow-inner">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-extrabold mb-4 rounded-md">
+                🕒 Limited Appointments Available This Week!
+            </h2>
+            <p class="text-lg md:text-xl mb-8 max-w-2xl mx-auto rounded-md">
+                👉 Don’t wait in pain — early slots are open now.
+            </p>
+            <a href="#contact" class="bg-white text-yellow-700 hover:bg-yellow-100 font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 transform hover:scale-105">
+                Secure Your Spot
+            </a>
+        </div>
+    </section>
+
+    <!-- Why Choose Rebalance Physiotherapy Section -->
+    <section id="why-us" class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800 rounded-md">Why Choose Rebalance Physiotherapy?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <!-- Reason 1 -->
+                <div class="flex items-start bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300">
+                    <div class="text-rebalance-blue flex-shrink-0 mr-4 mt-1">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-2 text-gray-800 rounded-md">Easily Accessible Location</h3>
+                        <p class="text-gray-600 rounded-md">Conveniently located for your ease of access, making your journey to recovery simpler.</p>
+                    </div>
+                </div>
+                <!-- Reason 2 -->
+                <div class="flex items-start bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300">
+                    <div class="text-rebalance-green flex-shrink-0 mr-4 mt-1">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.001 12.001 0 002.928 12c.38 3.119 1.83 6.017 4.172 8.292a12.001 12.001 0 0014.95-8.292 11.955 11.955 0 01-2.618-4.016z"></path></svg>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-2 text-gray-800 rounded-md">Evidence-Based 4-Phase Recovery System</h3>
+                        <p class="text-gray-600 rounded-md">Our proven system guides you through a structured path to lasting relief and strength.</p>
+                    </div>
+                </div>
+                <!-- Reason 3 -->
+                <div class="flex items-start bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300">
+                    <div class="text-rebalance-blue flex-shrink-0 mr-4 mt-1">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 10a6 6 0 00-12 0v2H2a2 2 0 00-2 2v4a2 2 0 002 2h20a2 2 0 002-2v-4a2 2 0 00-2-2h-4v-2z"></path></svg>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-2 text-gray-800 rounded-md">Ongoing Patient Support Through Every Phase</h3>
+                        <p class="text-gray-600 rounded-md">We're with you every step of the way, providing guidance and encouragement.</p>
+                    </div>
+                </div>
+                <!-- Reason 4 -->
+                <div class="flex items-start bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300">
+                    <div class="text-rebalance-green flex-shrink-0 mr-4 mt-1">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path></svg>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-2 text-gray-800 rounded-md">Transparent, Friendly, and Trustworthy Approach</h3>
+                        <p class="text-gray-600 rounded-md">You'll always know what to expect with clear communication and a caring team.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Call to Action (CTA) Section -->
+    <section id="contact" class="py-16 md:py-24 bg-rebalance-blue text-center rounded-t-xl shadow-lg">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold mb-8 text-gray-800 rounded-md">Ready to Rebalance Your Health?</h2>
+            <p class="text-lg md:text-xl text-gray-700 mb-8 max-w-2xl mx-auto rounded-md">
+                Don't let pain hold you back. Take the first step towards a healthier, more active life.
+            </p>
+            <a href="tel:+919214585197" class="bg-rebalance-green text-white hover:bg-green-700 font-bold py-4 px-10 rounded-full shadow-lg transition duration-300 transform hover:scale-105 inline-flex items-center space-x-2">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h.01M7 16h.01M17 16h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                <span>Book Your Initial Assessment Today</span>
+            </a>
+
+            <div class="mt-12 text-gray-700 text-lg md:text-xl space-y-4">
+                <p class="rounded-md">📞 Call: <a href="tel:+919214585197" class="text-rebalance-blue hover:underline font-semibold">+91-9214585197</a></p>
+                <p class="rounded-md">📍 Location: <span class="font-semibold">69, Bajaj nagar enclave, Jaipur, raj. - 302015</span></p>
+                <p class="rounded-md">📲 Message us directly on Instagram: <a href="https://instagram.com/rebalancephysiotherapyclinic0" target="_blank" class="text-rebalance-blue hover:underline font-semibold">@rebalancephysiotherapyclinic0</a></p>
+                <p class="rounded-md">💬 WhatsApp Support Available: <a href="https://wa.me/919214585197" target="_blank" class="text-rebalance-blue hover:underline font-semibold">+91-9214585197</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4 text-center text-gray-400">
+            <p>&copy; 2025 Rebalance Physiotherapy Clinic. All rights reserved.</p>
+            <div class="flex justify-center space-x-4 mt-4">
+                <a href="#" class="hover:text-white transition duration-300 rounded-md p-1">Privacy Policy</a>
+                <a href="#" class="hover:text-white transition duration-300 rounded-md p-1">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
